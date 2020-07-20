@@ -1,0 +1,95 @@
+.App {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  text-align: center;
+  background-color: #c4d3d0;
+}
+.header{
+  color: blue;
+  margin: 0;
+  padding: 0;
+}
+h1{
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+  padding-top: 10px;
+}
+.search{
+  width: 300px;
+  border: none;
+  margin: 10px auto;
+  padding: 6px;
+}
+.Contact {
+  display: flex;
+  flex-direction: "row";
+  align-items: center;
+  border: 1px solid green;
+  border-radius: 5px;
+  max-width: 700px;
+  justify-content: space-between;
+  margin: 15px auto;
+}
+img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid green;
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 5px;
+}
+button {
+  margin: 10px;
+  border: none;
+  border-radius: 10px;
+  padding: 6px;
+}
+.arrow-left {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 10px solid #000000;
+  cursor: pointer;
+}
+.arrow-right {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid #000000;
+  cursor: pointer;
+}
+.current-page {
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+  background: #000000;
+  color: #ffffff;
+  line-height: 20px;
+  vertical-align: middle;
+  text-align: center;
+  font-weight: 700px;
+  font-size: 10px;
+  cursor: pointer;
+  margin: auto 6px;
+}
+.pager {
+  width: 100px;
+  display: flex;
+  margin: auto;
+}
+.footer{
+  background-color: #bdc8c2;
+  height: 50px;
+  color: #000000;
+  padding-top: 20px;
+  margin-top: 10px;
+}
+.text{
+  margin-left: -50px;
+  font-weight: bold;
+  font-style: oblique;
+}
